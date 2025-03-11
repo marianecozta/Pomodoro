@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "POMODORO UNIVERSITÁRIO",
+  title: "POMODORO 🍅",
 };
 
 export default function RootLayout({
