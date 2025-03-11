@@ -96,7 +96,7 @@ export default function PomodoroApp() {
       </div>
       
       <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-center" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
-        Pomodoro Universitário
+      POMODORO 🍅
       </h1>
       
       <div className="relative w-32 h-32 sm:w-40 sm:h-40 flex items-center justify-center">
