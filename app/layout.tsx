@@ -13,31 +13,29 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "POMODORO 🍅",  // Título principal do site alterado
-  description: "Aplicativo Pomodoro para estudar de maneira eficiente",  // Descrição do site
+  title: "POMODORO 🍅",
+  description: "Aplicativo Pomodoro para estudar de maneira eficiente",
   icons: {
-    icon: "/favicon.ico",  // Ícone padrão do site (favicon)
+    icon: "/favicon.ico",
   },
-  // Open Graph (para redes sociais como WhatsApp, Facebook, Twitter, etc.)
   openGraph: {
-    title: "POMODORO 🍅",  // Título da prévia do link alterado
-    description: "Organize suas sessões de estudo com o método Pomodoro.",  // Descrição da prévia
-    url: "https://pomodorouniversitario.vercel.app",  // URL do seu site
-    siteName: "POMODORO 🍅",  // Nome do seu site alterado
+    title: "POMODORO 🍅",
+    description: "Organize suas sessões de estudo com o método Pomodoro.",
+    url: "https://pomodorouniversitario.vercel.app",
+    siteName: "POMODORO 🍅",
     images: [
       {
-        url: "/favicon2.png",  // Imagem maior para a prévia do site (1200x630px)
+        url: "/favicon2.png",
         width: 1200,
         height: 630,
       },
     ],
   },
-  // Twitter Card (opcional, mas útil para Twitter)
   twitter: {
-    card: "summary_large_image",  // Exibe uma imagem maior
-    title: "POMODORO 🍅",  // Título do Twitter Card alterado
+    card: "summary_large_image",
+    title: "POMODORO 🍅",
     description: "Organize suas sessões de estudo com o método Pomodoro.",
-    images: ["/favicon2.png"],  // Imagem do Twitter Card (usando "images" no lugar de "image")
+    images: ["/favicon2.png"],
   },
 };
 
